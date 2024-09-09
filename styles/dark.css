@@ -5,11 +5,54 @@
 */
 
 .page.theme_dark {
+   /* COLOR */
+  --accent-color: #FF0070;
+  --bg-color:     #000028;
+  --border-color: #FF0070;
+  --link-color:   #FF0070;
+  --title-color:  #DB00FF;
+  --text-color:   #F1B2CE;
+  --sub-title-color: #000028;
+
+
+    --background-image: url(../images/cover-image-dark.png);
+  
+
+    .rec_decor {
+      visibility: visible;
+    }
+
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
-  */
-
+    
+        .decorated-zone::before {
+      border-right: 1px solid var(--border-color) ;
+      border-top: 1px solid var(--border-color);
+    }
+    
+    .decorated-zone::after {
+      border-left: 1px solid var(--border-color) ;
+      border-bottom: 1px solid var(--border-color);
+    }
+    
+    
+    */
 }
 
 
+@media (prefers-color-scheme: dark) {
+  :root {   /* COLOR */
+    --accent-color: #FF0070;
+    --bg-color:     #000028;
+    --link-color:   #FF0070;
+    --title-color:  #DB00FF;
+    --text-color:   #F1B2CE;
+    --sub-title-color: #000028;
+  
+  
+      --background-image: url(../images/cover-image-dark.png);
+    }
+
+  
+}

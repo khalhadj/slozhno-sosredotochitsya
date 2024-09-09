@@ -2,3 +2,26 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --title-font-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --main-font: 18px;
+  --bold: 700;
+
+    /* COLOR */
+  
+  --accent-color: #FF0070;
+  --bg-color:     #000028;
+  --border-color: #FF0070;
+  --link-color:   #FF0070;
+  --title-color:  #DB00FF;
+  --text-color:   #F1B2CE;
+  --sub-title-color: #000028;
+
+  --background-image: url(../images/cover-image-dark.png);
+
+
+  --padding-side-small: 0 10px;
+  --padding-side-medium: 0 20px;
+
+}
