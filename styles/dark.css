@@ -32,7 +32,8 @@
 
 
 @media (prefers-color-scheme: dark) {
-  :root {   /* COLOR */
+  :root {   
+    /* COLOR */
   --accent-color: #FF0070;
   --primary-color: #000028;
   --secondary-color: #F1B2CE;
@@ -42,11 +43,9 @@
   --headline-color: #000028;
   --link-color: #FF0070;
   
-    --background-image: url(../images/cover-image-dark.png);
-  
+  --background-image: url(../images/cover-image-dark.png);
 
-    .rec_decor {
-      visibility: visible;
-    }  
+  --visibility: visible;
+  
   }
 }

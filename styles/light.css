@@ -45,8 +45,7 @@
  
    --background-image: url(../images/cover-image-light.png);
    
-   .rec_decor{
-   visibility: hidden;
-    }
+   --visibility: hidden;
+
   }
 }

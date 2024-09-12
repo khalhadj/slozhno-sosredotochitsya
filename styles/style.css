@@ -22,14 +22,13 @@
 }
 
 .rec_decor {
-  visibility: visible;
+  visibility: var(--visibility);
   position: absolute;
   display: flex;
   gap: 10px;
   align-items: center;
   top: 10px;
   right: 19px;
-  visibility: visible;
 }
 
 .rec_decor::before {
