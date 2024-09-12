@@ -173,10 +173,6 @@
 
   /*  ГАЛЕРЕЯ */
 
-  .gallery__list {
-    max-height: 1091px;
-  }
-
 .gallery__list {
   gap: 10px;
 }

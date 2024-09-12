@@ -29,22 +29,19 @@
   */
 }
 
-
 @media (prefers-color-scheme: light) {
-  :root {
-    /* COLOR */   
-    --accent-color:   #FF8DCB;
-    --bg-color: #FFF1F7;
-    --title-color:    #FFC2E6;
-    --text-color: #353430;
-    --subtitle-color:  #353430;
-    --headline-color: #353430;
-    --link-color: #353430;
-    --border-hover-color: rgba(50, 49, 45, 0.40);
+  :root {   
+      /* COLOR */   
+  --accent-color:   #FF8DCB;
+  --bg-color: #FFF1F7;
+  --title-color:    #FFC2E6;
+  --text-color: #353430;
+  --subtitle-color:  #353430;
+  --headline-color: #353430;
+  --link-color: #353430;
+  --border-hover-color: rgba(50, 49, 45, 0.40);
  
    --background-image: url(../images/cover-image-light.png);
-   
    --visibility: hidden;
-
   }
 }
