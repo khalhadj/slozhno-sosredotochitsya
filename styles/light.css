@@ -14,14 +14,10 @@
    --subtitle-color:  #353430;
    --headline-color: #353430;
    --link-color: #353430;
-   
-   
 
   --background-image: url(../images/cover-image-light.png);
   
-  .rec_decor{
-  visibility: hidden;
-}
+  --visibility: hidden;
 
 
   /* сохраните этот селектор в приведённом виде.

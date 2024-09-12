@@ -14,12 +14,9 @@
   --headline-color: #000028;
   --link-color: #FF0070;
   
-    --background-image: url(../images/cover-image-dark.png);
+  --background-image: url(../images/cover-image-dark.png);
   
-
-    .rec_decor {
-      visibility: visible;
-    }
+  --visibility: visible;
 
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
