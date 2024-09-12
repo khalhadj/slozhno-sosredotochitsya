@@ -19,6 +19,7 @@
   --subtitle-color:  #FF0070;
   --headline-color: #000028;
   --link-color: #FF0070;
+  --border-hover-color: rgba(255, 0, 112, 0.40);
   --background-image: url(../images/cover-image-dark.png);
 
   --padding-side-small: 0 10px;
