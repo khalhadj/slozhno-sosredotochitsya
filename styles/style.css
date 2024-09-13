@@ -187,6 +187,7 @@
 }
 
 .gallery__img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -253,7 +254,7 @@
 
   .section__why {
     gap: 20px;
-    grid-template-columns: minmax(auto, 315px) minmax(472px, auto);
+    grid-template-columns: 1fr 2fr;
   }
 
   .section__what .subtitle {
@@ -261,8 +262,7 @@
   }
 
   .section__how {
-    grid-template-columns: minmax(auto, 315px) minmax(472px, auto);
-    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 2fr;
   }
 
   .section__how .list {
@@ -318,14 +318,11 @@
     max-width: 491px;
   }
 
-  .section__what {
-    grid-template-rows: auto auto;
-  }
   .section__what .subtitle {
     width: 315px;
   }
   .section__what .list {
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .gallery__list {
