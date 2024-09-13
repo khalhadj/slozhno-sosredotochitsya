@@ -21,17 +21,17 @@
 
 
 @media (prefers-color-scheme: dark) {
-  :root {   
-  --accent-color:  #FF0070;
-  --primary-color: #000028;
-  --title-color:   #DB00FF;
-  --text-color:    #F1B2CE;
-  --subtitle-color:#FF0070;
-  --headline-color:#000028;
-  --link-color:    #FF0070;
-  --border-hover-color: rgba(255, 0, 112, 0.40);
- 
-  --background-image: url(../images/cover-image-dark.png);
-  --visibility: visible;
+  :root {
+    --accent-color:  #FF0070;
+    --primary-color: #000028;
+    --title-color:   #DB00FF;
+    --text-color:    #F1B2CE;
+    --subtitle-color:#FF0070;
+    --headline-color:#000028;
+    --link-color:    #FF0070;
+    --border-hover-color: rgba(255, 0, 112, 0.40);
+    
+    --background-image: url(../images/cover-image-dark.png);
+    --visibility: visible;
   }
 }

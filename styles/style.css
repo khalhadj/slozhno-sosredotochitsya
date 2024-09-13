@@ -167,7 +167,7 @@
   font-size: var(--normal);
 }
 
-.section__how-headline{
+.section__how-headline {
   margin-bottom: 20px;
 }
 
@@ -240,7 +240,7 @@
     max-width: 364px;
   }
 
-  .title{ 
+  .title {
     font-size: var(--title-font-desktop);
   }
 
