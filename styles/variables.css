@@ -13,16 +13,16 @@
   --bold: 700;
   --normal: 400;
 
-    /* COLOR */
-  
-  --accent-color: #FF0070;
+  /* COLOR */
+
+  --accent-color: #ff0070;
   --bg-color: #000028;
-  --title-color:  #DB00FF;
-  --text-color: #F1B2CE;
-  --subtitle-color:  #FF0070;
+  --title-color: #db00ff;
+  --text-color: #f1b2ce;
+  --subtitle-color: #ff0070;
   --headline-color: #000028;
-  --link-color: #FF0070;
-  --border-hover-color: rgba(255, 0, 112, 0.40);
+  --link-color: #ff0070;
+  --border-hover-color: rgba(255, 0, 112, 0.4);
   --background-image: url(../images/cover-image-dark.png);
 
   --padding-side-small: 0 10px;
