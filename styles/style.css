@@ -167,6 +167,10 @@
   font-size: var(--normal);
 }
 
+.section__how-headline{
+  margin-bottom: 20px;
+}
+
 .section__how h4 {
   font-weight: var(--normal);
 }
@@ -236,6 +240,10 @@
     max-width: 364px;
   }
 
+  .title{ 
+    font-size: var(--title-font-desktop);
+  }
+
   .rec_decor {
     top: 20px;
     right: 29px;
@@ -267,7 +275,7 @@
 
   .gallery__list {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    /* grid-template-rows: minmax(192px, 260px) 230px 318px; */
     gap: 20px;
   }
 
@@ -321,6 +329,11 @@
   }
   .section__what .list {
     grid-template-columns: repeat(3, auto);
+  }
+
+  .gallery__list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
   }
 }
 

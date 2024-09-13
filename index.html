@@ -2,9 +2,9 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8" >
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
   <meta name="color-scheme" content="dark light">
   <title>Сложно сосредоточиться</title>
   <link rel="stylesheet" href="./fonts/fonts.css">
@@ -13,8 +13,8 @@
   <link rel="stylesheet" href="./styles/style.css">
   <link rel="stylesheet" href="./styles/dark.css">
   <link rel="stylesheet" href="./styles/light.css">
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 </head>
-
 <body class="page">
   <header class="header decorated-zone">
     <div class="rec_decor"></div>
@@ -73,8 +73,6 @@
         </li>
       </ul>
     </section>
-
-
     <section class="section section__what">
       <h2 class="subtitle ">Что снижает концентрацию внимания?</h2>
       <ul class="list ">
@@ -112,7 +110,8 @@
     </section>
       <section class="section section__how">
         <h2 class="subtitle ">Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)</h2>
-        <h3 class="headline title-decor">5 простых (на самом деле не очень) советов</h3> 
+        <div>
+        <h3 class="headline title-decor section__how-headline">5 простых (на самом деле не очень) советов</h3> 
         <ul class="list ">
           <li class="list-item">
             <article class="article">
@@ -136,10 +135,9 @@
               </p>
             </article>
           </li>
-
           <li class="list-item">
-            <h4 class="title-decor">Прогуляйтесь</h4>
             <article class="article">
+              <h4 class="title-decor">Прогуляйтесь</h4>
               <p class="text"> 
                 Или даже пробегитесь. Лучше найти парк или лес: один эксперимент показал,
                 что созерцание природы повышает концентрацию, в то время как после просмотра
@@ -171,35 +169,25 @@
             </article>
           </li>
         </ul>
+      </div>
       </section>
-
       <section class="section section__gallery">
         <h2 class="headline title-decor">А можно в картинках?</h2>
         <ul class="list gallery__list">
           <li class="gallery__list-item">
-            <picture>
-              <img src="./images/sunset.png" alt="Закат на фоне гор" class="gallery__img">
-            </picture>
+              <img src="./images/sunset.png" alt="Закат на фоне гор" class="gallery__img"  width="649" height="260" loading="lazy">
           </li>
           <li class="gallery__list-item">
-            <picture>
-              <img src="./images/ice-cream.png" alt="Милое мороженое" class="gallery__img">
-            </picture>
+              <img src="./images/ice-cream.png" alt="Милое мороженое" class="gallery__img" width="315" height="595" loading="lazy">
           </li>
           <li class="gallery__list-item">
-            <picture>
-              <img src="./images/tape.png" alt="Аудио кассета" class="gallery__img">
-            </picture>
+              <img src="./images/tape.png" alt="Аудио кассета" class="gallery__img" width="315" height="768" loading="lazy">
           </li>
           <li class="gallery__list-item">
-            <picture>
-              <img src="./images/books.png" alt="Стопка книжек с кружкой кофе наверху" class="gallery__img">
-            </picture>
+              <img src="./images/books.png" alt="Стопка книжек с кружкой кофе наверху" class="gallery__img" width="315" height="315" loading="lazy">
           </li>
           <li class="gallery__list-item">
-            <picture>
-              <img src="./images/street.png" alt="Уютная улица" class="gallery__img">
-            </picture>
+              <img src="./images/street.png" alt="Уютная улица" class="gallery__img" width="649" height="428" loading="lazy">
           </li>
         </ul>
       </section>
@@ -209,5 +197,4 @@
   </footer>
   <script src="./scripts/script.js"></script>
 </body>
-
 </html>
