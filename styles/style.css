@@ -181,8 +181,9 @@
 .gallery__list {
   gap: 10px;
 }
-.gallery__list-item {
-  object-fit: cover;
+
+.section__gallery-headline {
+  margin-bottom: 10px;
 }
 
 .gallery__img {
