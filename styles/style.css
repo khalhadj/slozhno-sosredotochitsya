@@ -174,7 +174,7 @@
   margin-bottom: 20px;
 }
 
-.section__how h4 {
+.section__how-text-title {
   font-weight: var(--normal);
 }
 
@@ -233,7 +233,6 @@
   }
 
   .header__title {
-    margin-left: -18px;
     margin-left: -18px;
     margin-top: 2%;
   }
